@@ -21,8 +21,14 @@ public class Exercise19_03 {
      */
     public static <E> ArrayList<E> removeDuplicates(ArrayList<E> list) {
         // TODO: Implement this method
-        System.out.println("TODO: removeDuplicates() not implemented yet");
-        return null;
+        for (int i = 0; i < list.size(); i++) {
+            for (int j = 0; j < list.size(); j++){
+                if (list[i] == list[j]) {
+                    list[i].remove;
+                }
+            }
+        }
+        return list;
     }
 
     public static void main(String[] args) {
